@@ -7,5 +7,21 @@ package com.callor.hello;
  * 오름차순 순서대로 배열하여 출력
  */
 public class Class009 {
+	
+	public static void main(String[] args) {
+		int[] nums = new int[5];
+		for(int i = 0 ; i < nums.length ; i++) {
+			nums[i] = (int)(Math.random() * 100) +1; ;
+		}
+		nums[0] = (int)(Math.random() * 100) +1; ;
+		nums[1] = (int)(Math.random() * 100) +1; ;
+		nums[2] = (int)(Math.random() * 100) +1; ;
+		nums[3] = (int)(Math.random() * 100) +1; ;
+		nums[4] = (int)(Math.random() * 100) +1; ;
+		
+		
+	}
+	
+	
 
 }
